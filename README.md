@@ -13,4 +13,5 @@ this code is to finfish classify based on the dataset of cifar-10 the model is c
 3.没有batchnorm时，val_acc只能勉强到0.7，加入batchnorm后，直接到了0.8。这里要注意conv后接spatial batchnorm；而dense后接vanilla batchnor
 
 Environment
+
 tensorflow with python 2.7
